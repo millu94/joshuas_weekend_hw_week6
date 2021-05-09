@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js"></script>
+    <title>Cool Guinea Pigs</title>
+</head>
+
+<body>
+    <form id="new-item-form">
+
+        <div id="form-wrapper">
+
+            <div class="form-item">
+                <label for="name" class="primary">Name</label>
+                <input type="text" id="name" required/>
+            </div>
+
+            <div class="form-item">
+                <label for="breeds" class="primary">Breed</label>
+                <input type="text" id="breeds" required/>
+            </div>
+
+            <div class="form-item">
+                <label for="favouritesnack" class="primary">Favourite Snack</label>
+                <select id="favouritesnack">
+                    <option value="" disabled selected></option>
+                    <option value="grapes">Grapes</option>
+                    <option value="parsley">Parsley</option>
+                    <option value="apple">Apple</option>
+                    <option value="kale">Kale</option>
+                    <option value="dandelion leaves">Dandelion Leaves</option>
+                </select>
+            </div>
+
+        </div>
+
+        <input type="submit" value="ADD PIG!" id="add-pig"/>
+
+    </form>
+
+    <button id="delete-all">Delete All</button>
+
+    <h1>Cool Guinea Pigs</h1>
+    <ul id="cool-guinea-pigs"></ul>
+
+</body>
+</html>
